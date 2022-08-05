@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Hyperlink to The Name in Lightning Datatable"><br/>
+         <div if:true={consData}>
+            <lightning-datatable data={consData} 
+                                 columns={columns} 
+                                 key-field="Id"
+                                 hide-checkbox-column="true"></lightning-datatable>
+        </div>
+    </lightning-card>
+</template>
